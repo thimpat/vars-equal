@@ -12,7 +12,7 @@ Description here
 ## Installation
 
 ```shell
-npm install var-equal
+npm install vars-equal
 ```
 
 <br/>
@@ -24,7 +24,7 @@ npm install var-equal
 ### CJS
 
 ```javascript
-const {...} = require("var-equal");
+const {...} = require("vars-equal");
 ```
 
 <br/>
@@ -32,7 +32,7 @@ const {...} = require("var-equal");
 ### ESM
 
 ```javascript
-import {...} from "var-equal";
+import {...} from "vars-equal";
 ```
 
 <br/>
