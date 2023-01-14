@@ -61,7 +61,7 @@ let sortEntryByKey = (currentEntity) =>
  * @returns {boolean}
  * @author Patrice Thimothee
  */
-const areEquals = (entity1, entity2) =>
+const varsEqual = (entity1, entity2) =>
 {
     if (typeof entity1 !== typeof entity2)
     {
@@ -81,4 +81,4 @@ const areEquals = (entity1, entity2) =>
     return str1 === str2;
 };
 
-module.exports.areEquals = areEquals;
+module.exports.varsEqual = varsEqual;

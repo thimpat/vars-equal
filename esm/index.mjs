@@ -67,7 +67,7 @@ let sortEntryByKey = (currentEntity) =>
  * @returns {boolean}
  * @author Patrice Thimothee
  */
-export const areEquals  = (entity1, entity2) =>
+export const varsEqual  = (entity1, entity2) =>
 {
     if (typeof entity1 !== typeof entity2)
     {
