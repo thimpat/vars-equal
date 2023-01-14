@@ -1,5 +1,5 @@
 {
-  "name": "var-equal",
+  "name": "vars-equal",
   "version": "1.0.0",
   "description": "",
   "main": "./esm/index.mjs",
@@ -19,11 +19,12 @@
     "require": "./cjs/index.cjs",
     "import": "./esm/index.mjs"
   },
-  "typings": "./esm/index.mjs",
+  "typings": "./index.d.mts",
   "type": "module",
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
     "nyc": "^15.1.0",
