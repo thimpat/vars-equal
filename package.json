@@ -1,7 +1,7 @@
 {
   "name": "vars-equal",
   "version": "1.0.0",
-  "description": "",
+  "description": "Compare two variables",
   "main": "./esm/index.mjs",
   "scripts": {
     "test": "npm run build:all && npm run test:js && npm run test:ts",
@@ -31,5 +31,16 @@
     "to-esm": "^2.27.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thimpat/vars-equal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thimpat/vars-equal/issues"
+  },
+  "homepage": "https://github.com/thimpat/vars-equal#readme"
 }
